@@ -1,0 +1,11 @@
+.footer{
+    display:flex;
+    margin:0 100px 0 100px;
+}
+.footer .navigation ul{
+    display: grid;
+}
+.footer nav{
+    display:grid;
+    place-items: center;
+}

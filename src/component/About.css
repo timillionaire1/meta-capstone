@@ -1,0 +1,38 @@
+.aboutPage{
+    margin: 0;
+    background-color: rgb(52, 49, 49);
+}
+.about{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:0 100px 0 100px;
+    padding-bottom: 70px;
+}
+.about div{
+    color:whitesmoke ;
+}
+.about div p{
+    width: 500px;
+}
+.about div:nth-child(2) img{
+    width:300px ;
+    height:300px;
+    border-radius:10px;
+}
+.about div:nth-child(2){
+    margin-top:40px;
+}
+.about div:nth-child(2) img:nth-child(1){
+    position:absolute;
+    margin-top: 50px;
+    /* margin-right: 50px; */
+    z-index: 0;
+}
+.about div:nth-child(2) img:nth-child(2){
+    margin-left: 150px;
+    z-index: 1;
+}
+.about div:nth-child(2){
+    display:grid;
+}

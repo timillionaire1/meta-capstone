@@ -1,0 +1,48 @@
+.highPage{
+    /* background-color:  rgb(21, 20, 20); */
+    margin:0;
+}
+.highLight{
+    margin:0 100px 0 100px;
+    padding:25px;
+}
+.row_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row_one button{
+    width: 100px;
+    height: 50px;
+}
+.row_two{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+.col img{
+    width:100%;
+    height:50%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.col{
+    width:300px;
+    height:500px;
+    border-radius:10px;
+    background-color: darkgray;
+}
+.col div{
+    padding-left:20px;
+    padding-right:15px;
+}
+.col div div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#title{
+    padding: 5px;
+}
+

@@ -1,0 +1,22 @@
+.navPage{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 100px 0 100px;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+ul li a{
+    text-decoration:none;
+    color:black ;
+}
+ul li{
+    list-style: none;
+}
